@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+}
+
+.grid-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 5% 43% 42% 5% 5%;
+	grid-template-areas:
+            'top top'
+            'left right-top'
+			'left right-bottom'
+            'bottom-up bottom-up'
+			'bottom-down bottom-down';
+}
+
+.top {
+	grid-area: top;
+	background: #D9D9D9;
+}
+
+.left {
+	grid-area: left;
+	background: #A4A4A4;
+}
+
+.right-top {
+	grid-area: right-top;
+	background: #7F7A7A;
+}
+
+.right-bottom {
+	grid-area: right-bottom;
+	background: #615050;
+}
+
+.bottom-up {
+	grid-area: bottom-up;
+	background: #D9D9D9;
+}
+
+.bottom-down {
+	grid-area: bottom-down;
+	background: #AFA9A9;
+}
