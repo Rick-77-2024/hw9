@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 }
 
@@ -34,7 +34,6 @@
 .content3 {
 	grid-area: content3;
 	background: #441818;
-
 }
 
 .spam1 {
@@ -52,7 +51,7 @@
 	background: #BDBDBD;
 }
 
-.item {
+.header, .content1, .content2, .content3, .spam1, .spam2, .footer {
 	display: grid;
 	justify-content: center;
 	align-items: center;
